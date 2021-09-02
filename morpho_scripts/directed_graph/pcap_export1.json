@@ -1,0 +1,187 @@
+{
+ "links": [
+  {
+   "source": 23,
+   "target": 0,
+   "value": -0.38820223321239283
+  },
+  {
+   "source": 21,
+   "target": 0,
+   "value": 0.512566746030917
+  },
+  {
+   "source": 20,
+   "target": 0,
+   "value": 0.3461092317542502
+  },
+  {
+   "source": 19,
+   "target": 0,
+   "value": 0.3271708116203842
+  },
+  {
+   "source": 17,
+   "target": 0,
+   "value": 0.4094454760617532
+  },
+  {
+   "source": 7,
+   "target": 0,
+   "value": -0.5291401486884744
+  },
+  {
+   "source": 8,
+   "target": 0,
+   "value": -0.6562014076675202
+  },
+  {
+   "source": 4,
+   "target": 0,
+   "value": -0.5542238383422303
+  },
+  {
+   "source": 5,
+   "target": 0,
+   "value": -0.6366872669047047
+  },
+  {
+   "source": 3,
+   "target": 0,
+   "value": -0.7678844124891802
+  },
+  {
+   "source": 11,
+   "target": 0,
+   "value": 0.7115150351924132
+  },
+  {
+   "source": 12,
+   "target": 0,
+   "value": 0.6812270866249374
+  },
+  {
+   "source": 6,
+   "target": 0,
+   "value": -0.6035556186747814
+  },
+  {
+   "source": 13,
+   "target": 0,
+   "value": -0.704358439076123
+  },
+  {
+   "source": 14,
+   "target": 0,
+   "value": -0.7068107604411011
+  },
+  {
+   "source": 2,
+   "target": 0,
+   "value": -0.5780936393762367
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "value": -0.5077689245993596
+  }
+ ],
+ "nodes": [
+  {
+   "group": "5",
+   "name": "3D invasiveness"
+  },
+  {
+   "group": "1",
+   "name": "area_h"
+  },
+  {
+   "group": "1",
+   "name": "area_l"
+  },
+  {
+   "group": "1",
+   "name": "areavar"
+  },
+  {
+   "group": "1",
+   "name": "asra0"
+  },
+  {
+   "group": "1",
+   "name": "asra1"
+  },
+  {
+   "group": "1",
+   "name": "asravar"
+  },
+  {
+   "group": "1",
+   "name": "circ0"
+  },
+  {
+   "group": "1",
+   "name": "circ1"
+  },
+  {
+   "group": "1",
+   "name": "circum_h"
+  },
+  {
+   "group": "1",
+   "name": "circum_l"
+  },
+  {
+   "group": "1",
+   "name": "circumvar"
+  },
+  {
+   "group": "1",
+   "name": "circvar"
+  },
+  {
+   "group": "0",
+   "name": "cnumh"
+  },
+  {
+   "group": "0",
+   "name": "cnumk"
+  },
+  {
+   "group": "0",
+   "name": "dmdeg_h"
+  },
+  {
+   "group": "0",
+   "name": "dmdeg_l"
+  },
+  {
+   "group": "0",
+   "name": "fdim0"
+  },
+  {
+   "group": null,
+   "name": "mcompmass_d"
+  },
+  {
+   "group": null,
+   "name": "mcompmass_h"
+  },
+  {
+   "group": "0",
+   "name": "mdeg_h"
+  },
+  {
+   "group": "0",
+   "name": "mdeg_l"
+  },
+  {
+   "group": null,
+   "name": "ncomph"
+  },
+  {
+   "group": "0",
+   "name": "ncompk"
+  }
+ ]
+}
