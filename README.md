@@ -1,5 +1,5 @@
 # Melanoma_NetworkMorphology
-Code for "Cell morphology and network topology: analytics and relationships to tumor heterogeneity and dissemination"
+Code for "Biophysical informatics reveals distinctive phenotypic signatures and functional diversity of single cell lineages"
 
 Code is divided into two parts: 
 
