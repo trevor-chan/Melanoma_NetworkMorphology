@@ -3,9 +3,9 @@ Code for "Biophysical informatics reveals distinctive phenotypic signatures and 
 
 Code is divided into two parts: 
 
-	Cell instance segmentation - based on MASK-RCNN public code repo and adapted for cell images with custom NMS scripts.
+Cell instance segmentation - based on MASK-RCNN public code repo and adapted for cell images with custom NMS scripts.
 
-	Morphoscripts - morphological analysis, clustering, datavisualization, and plotting scripts that use segmentation output data.
+Morphoscripts - morphological analysis, clustering, datavisualization, and plotting scripts that use segmentation output data.
 
 ## Training a cell segmentation model
 
@@ -21,3 +21,4 @@ Complete morphological analysis of a sequence of segmentation outputs correspond
 
 
 For questions on how to run code, contact tjchan@seas.upenn.edu (510) 999 2031.
+
