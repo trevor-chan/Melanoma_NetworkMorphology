@@ -5,7 +5,6 @@
 <head>
 <meta charset="utf-8">
 <title>Pandas D3 Force Directed Example - www.austintaylor.io</title>
-
 <!-- JavaScript Libraries //-->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
@@ -198,7 +197,7 @@ function drawNodes(nodes) {
         //.on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); });//-------------------------------------
         .each(function(d, i) { addTooltip(d3.select(this)); })//------------------------------------------------------
 }
-    
+
 
 // Draws edges between nodes
 function drawLinks(links) {
@@ -225,11 +224,11 @@ function drawLinks(links) {
         });
 }
     
-d3.select("#download")
-.on('click', function(){
-    // Get the d3js SVG element and save using saveSvgAsPng.js
-    saveSvgAsPng(document.getElementsByTagName("svg")[0], "plot.png", {scale: 2, backgroundColor: "#FFFFFF"});
-})
+// d3.select("#download")
+// .on('click', function(){
+//     // Get the d3js SVG element and save using saveSvgAsPng.js
+//     saveSvgAsPng(document.getElementsByTagName("svg")[0], "plot.png", {scale: 2, backgroundColor: "#FFFFFF"});
+// })
 
 
 </script>
@@ -238,9 +237,11 @@ d3.select("#download")
 <body>
 <div align="center" id="force"></div>
 <script>
-d3.json("pcap_export1.json", drawGraph);
+d3.json("census_force_directed_graph_data.json", drawGraph);
 </script>
-<button id='saveButton'>Export my D3 visualization to PNG</button>
+
+
+<!-- <button id='saveButton'>Export my D3 visualization to PNG</button>
 <script>
     // Set-up the export button
 d3.select('#saveButton').on('click', function(){
@@ -354,6 +355,8 @@ function svgString2Image( svgString, width, height, format, callback ) {
 }
 
     
-</script>
+</script> -->
+
+
 </body>
-</html>
+<!-- </html> -->

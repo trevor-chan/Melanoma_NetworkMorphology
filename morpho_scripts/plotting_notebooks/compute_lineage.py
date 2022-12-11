@@ -6,7 +6,7 @@ import scipy
 import scipy.special
 import cv2
 
-import torch
+# import torch
 
 import networkx as nx
 
