@@ -26,8 +26,8 @@ Cell network analysis is conducted using the network_object class, which is init
 
 ### Analyzing single cell morphology
 Single cell morphology is likewise analyzed using cell network objects. If only cell morphological features are desired and not network topological features, a list of cell_objects can be created directly from the segmentation output file (loaded as 'instances') using:
-'for i in range(len(instances['pred_boxes'])):
-            cell_list.append(cell_object(instances['pred_boxes'][i],instances['pred_masks'][i],instances['scores'][i]))'
+`for i in range(len(instances['pred_boxes'])):
+            cell_list.append(cell_object(instances['pred_boxes'][i],instances['pred_masks'][i],instances['scores'][i]))`
 
 
 For questions on how to run code, contact tjchan@seas.upenn.edu (510) 999 2031.
