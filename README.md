@@ -17,7 +17,17 @@ Running train.py will begin training. Running predict.py will run inference on a
     
     
 ## Network and morphological analysis
+
+### Analyzing cell populations over time
 Complete morphological analysis of a sequence of segmentation outputs corresponding to one cell line is most easily performed by initializing a linieage_timeless object, defined in the script lineage_timeless.py. The constructor takes in a filepath to a directory containing the outputs of the instance segmentation model (.data files) and calculates a range of properties at the single cell, cell network, and cell population over time levels. These are contained within the object (See the class definitions for lineage_timeless, network_object, and cell_object). As this computation is time consuming, we recommend saving the resulting files and reloading them for future use (through the save_object() and load_object() methods).
+
+### Analyzing cell networks
+Cell network analysis is conducted using the network_object class, which is initialized by reading in a segmentation output. This precomputes a cell adjacency network as well as certain morphological features on a single cell and cell network basis. Additional morphological and topological features can be calculated using the methods defined.
+
+### Analyzing single cell morphology
+Single cell morphology is likewise analyzed using cell network objects. If only cell morphological features are desired and not network topological features, a list of cell_objects can be created directly from the segmentation output file (loaded as 'instances') using:
+    for i in range(len(instances['pred_boxes'])):
+            cell_list.append(cell_object(instances['pred_boxes'][i],instances['pred_masks'][i],instances['scores'][i]))
 
 
 For questions on how to run code, contact tjchan@seas.upenn.edu (510) 999 2031.
